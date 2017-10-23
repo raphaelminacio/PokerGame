@@ -276,7 +276,7 @@
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo_loto-quebec.png" translatesAutoresizingMaskIntoConstraints="NO" id="8O4-ja-tPe">
-                                <rect key="frame" x="15" y="15" width="70" height="66"/>
+                                <rect key="frame" x="40" y="14" width="70" height="66"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
