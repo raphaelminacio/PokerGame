@@ -55,7 +55,6 @@
 		287D26371F9E3AAC00600F07 /* 5c.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26021F9E3AAA00600F07 /* 5c.png */; };
 		287D26381F9E3AAC00600F07 /* 12d.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26031F9E3AAA00600F07 /* 12d.png */; };
 		287D26391F9E3AAC00600F07 /* 2h.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26041F9E3AAA00600F07 /* 2h.png */; };
-		287D263A1F9E3AAC00600F07 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26051F9E3AAB00600F07 /* back.png */; };
 		287D263B1F9E3AAC00600F07 /* 10h.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26061F9E3AAB00600F07 /* 10h.png */; };
 		287D263C1F9E3AAC00600F07 /* 12s.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26071F9E3AAB00600F07 /* 12s.png */; };
 		287D263D1F9E3AAC00600F07 /* 1c.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26081F9E3AAB00600F07 /* 1c.png */; };
@@ -97,10 +96,11 @@
 		287D26801F9E3AD700600F07 /* Icon-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26621F9E3AD700600F07 /* Icon-50.png */; };
 		287D26811F9E3AD700600F07 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26631F9E3AD700600F07 /* Icon-120.png */; };
 		287D26821F9E3AD700600F07 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26641F9E3AD700600F07 /* Icon-512.png */; };
-		287D26871F9E3AF200600F07 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26841F9E3AF100600F07 /* bg.png */; };
 		287D26881F9E3AF200600F07 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26851F9E3AF100600F07 /* buttons.png */; };
-		287D26891F9E3AF200600F07 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26861F9E3AF100600F07 /* logo.png */; };
 		28F7FDF71F9E7ABD007F402B /* Round About.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDF61F9E7ABD007F402B /* Round About.ttf */; };
+		28F7FDF91F9E8ADA007F402B /* back_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDF81F9E8ADA007F402B /* back_card.png */; };
+		28F7FDFC1F9E8B36007F402B /* logo_loto-quebec.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDFA1F9E8B36007F402B /* logo_loto-quebec.png */; };
+		28F7FDFD1F9E8B36007F402B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDFB1F9E8B36007F402B /* background.png */; };
 		9B2804E81F9827DF00E6CCB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2804E71F9827DF00E6CCB1 /* AppDelegate.swift */; };
 		9B2804EA1F9827DF00E6CCB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2804E91F9827DF00E6CCB1 /* ViewController.swift */; };
 		9B2804ED1F9827DF00E6CCB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2804EB1F9827DF00E6CCB1 /* Main.storyboard */; };
@@ -158,7 +158,6 @@
 		287D26021F9E3AAA00600F07 /* 5c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5c.png; sourceTree = "<group>"; };
 		287D26031F9E3AAA00600F07 /* 12d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12d.png; sourceTree = "<group>"; };
 		287D26041F9E3AAA00600F07 /* 2h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2h.png; sourceTree = "<group>"; };
-		287D26051F9E3AAB00600F07 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 		287D26061F9E3AAB00600F07 /* 10h.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10h.png; sourceTree = "<group>"; };
 		287D26071F9E3AAB00600F07 /* 12s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12s.png; sourceTree = "<group>"; };
 		287D26081F9E3AAB00600F07 /* 1c.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1c.png; sourceTree = "<group>"; };
@@ -200,10 +199,11 @@
 		287D26621F9E3AD700600F07 /* Icon-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-50.png"; sourceTree = "<group>"; };
 		287D26631F9E3AD700600F07 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
 		287D26641F9E3AD700600F07 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
-		287D26841F9E3AF100600F07 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		287D26851F9E3AF100600F07 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
-		287D26861F9E3AF100600F07 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
 		28F7FDF61F9E7ABD007F402B /* Round About.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Round About.ttf"; path = "working/fonts/Round About.ttf"; sourceTree = SOURCE_ROOT; };
+		28F7FDF81F9E8ADA007F402B /* back_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_card.png; path = working/images/cards/back_card.png; sourceTree = SOURCE_ROOT; };
+		28F7FDFA1F9E8B36007F402B /* logo_loto-quebec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_loto-quebec.png"; path = "working/images/misc/logo_loto-quebec.png"; sourceTree = SOURCE_ROOT; };
+		28F7FDFB1F9E8B36007F402B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = working/images/misc/background.png; sourceTree = SOURCE_ROOT; };
 		9B2804E41F9827DF00E6CCB1 /* Raphael_TPFINAL1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raphael_TPFINAL1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2804E71F9827DF00E6CCB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B2804E91F9827DF00E6CCB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -261,6 +261,7 @@
 		287D25DB1F9E3A9300600F07 /* cards */ = {
 			isa = PBXGroup;
 			children = (
+				28F7FDF81F9E8ADA007F402B /* back_card.png */,
 				287D26081F9E3AAB00600F07 /* 1c.png */,
 				287D25E31F9E3AA700600F07 /* 1d.png */,
 				287D25F01F9E3AA800600F07 /* 1h.png */,
@@ -313,7 +314,6 @@
 				287D25FB1F9E3AA900600F07 /* 13d.png */,
 				287D25EB1F9E3AA700600F07 /* 13h.png */,
 				287D260B1F9E3AAC00600F07 /* 13s.png */,
-				287D26051F9E3AAB00600F07 /* back.png */,
 			);
 			path = cards;
 			sourceTree = "<group>";
@@ -358,9 +358,9 @@
 		287D26831F9E3ADD00600F07 /* misc */ = {
 			isa = PBXGroup;
 			children = (
-				287D26841F9E3AF100600F07 /* bg.png */,
+				28F7FDFB1F9E8B36007F402B /* background.png */,
+				28F7FDFA1F9E8B36007F402B /* logo_loto-quebec.png */,
 				287D26851F9E3AF100600F07 /* buttons.png */,
-				287D26861F9E3AF100600F07 /* logo.png */,
 			);
 			path = misc;
 			sourceTree = "<group>";
@@ -463,10 +463,10 @@
 				287D26361F9E3AAC00600F07 /* 12c.png in Resources */,
 				287D263F1F9E3AAC00600F07 /* 6c.png in Resources */,
 				287D26691F9E3AD700600F07 /* Icon-167.png in Resources */,
+				28F7FDF91F9E8ADA007F402B /* back_card.png in Resources */,
 				287D26311F9E3AAC00600F07 /* 11c.png in Resources */,
 				287D262D1F9E3AAC00600F07 /* 7h.png in Resources */,
 				287D26131F9E3AAC00600F07 /* 8s.png in Resources */,
-				287D26871F9E3AF200600F07 /* bg.png in Resources */,
 				287D266F1F9E3AD700600F07 /* Icon-20.png in Resources */,
 				287D26411F9E3AAC00600F07 /* 4c.png in Resources */,
 				287D25D71F9E3A8A00600F07 /* blur_3.png in Resources */,
@@ -500,7 +500,7 @@
 				287D26791F9E3AD700600F07 /* Icon-64.png in Resources */,
 				287D26881F9E3AF200600F07 /* buttons.png in Resources */,
 				287D26121F9E3AAC00600F07 /* 6d.png in Resources */,
-				287D26891F9E3AF200600F07 /* logo.png in Resources */,
+				28F7FDFD1F9E8B36007F402B /* background.png in Resources */,
 				287D262C1F9E3AAC00600F07 /* 4s.png in Resources */,
 				287D26391F9E3AAC00600F07 /* 2h.png in Resources */,
 				287D267B1F9E3AD700600F07 /* Icon-16.png in Resources */,
@@ -512,10 +512,10 @@
 				287D26401F9E3AAC00600F07 /* 13s.png in Resources */,
 				287D25D61F9E3A8A00600F07 /* blur_2.png in Resources */,
 				287D26781F9E3AD700600F07 /* Icon-32.png in Resources */,
+				28F7FDFC1F9E8B36007F402B /* logo_loto-quebec.png in Resources */,
 				287D26801F9E3AD700600F07 /* Icon-50.png in Resources */,
 				287D26301F9E3AAC00600F07 /* 13d.png in Resources */,
 				9B2804EF1F9827DF00E6CCB1 /* Assets.xcassets in Resources */,
-				287D263A1F9E3AAC00600F07 /* back.png in Resources */,
 				287D267F1F9E3AD700600F07 /* Icon-80.png in Resources */,
 				287D26111F9E3AAC00600F07 /* 5s.png in Resources */,
 				287D266D1F9E3AD700600F07 /* Icon-29.png in Resources */,
