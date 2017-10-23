@@ -32,17 +32,17 @@ class ViewController: UIViewController {
     @IBOutlet weak var creditsLabel: UILabel!  //ici c'est la connexion avec le label "CRÉDITS"
     @IBOutlet weak var betLabel: UILabel!  //ici c'est la connexion avec le label "MISE"
     //---
-    var arrOfCardImages: [UIImage]!
+    var arrOfCardImages: [UIImage]!  //déclaration du tableau Card Images
     //---
-    var arrOfSlotImageViews: [UIImageView]!
+    var arrOfSlotImageViews: [UIImageView]!  //déclaration du tableau Slot Image View
     //---
-    var deckOfCards = [(Int, String)]()
+    var deckOfCards = [(Int, String)]()  //déclaration de la variable Deck of Cards, qui va conteninr un nombre et un chain de caractère,par example: 8h (8 of hearts)
     //---
-    var arrOfBackgrounds: [UIView]!
+    var arrOfBackgrounds: [UIView]!  //déclaration du tableau de Backgrounds de chaque carte
     //---
-    var arrOfKeepLabels: [UILabel]!
+    var arrOfKeepLabels: [UILabel]!  //déclaration du tableau du label GARDER
     //---
-    let saveScore = UserDefaultsManager()
+    let saveScore = UserDefaultsManager() // déclaration de la constant qui appèle la classe User Defaults Manager
     var permissionToSelectCards = false
     var bet = 0
     var credits = 2000
