@@ -97,6 +97,7 @@
 		287D26811F9E3AD700600F07 /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26631F9E3AD700600F07 /* Icon-120.png */; };
 		287D26821F9E3AD700600F07 /* Icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26641F9E3AD700600F07 /* Icon-512.png */; };
 		287D26881F9E3AF200600F07 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26851F9E3AF100600F07 /* buttons.png */; };
+		2895EFBD1F9EA26E00672214 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895EFBC1F9EA26E00672214 /* UserDefaultsManager.swift */; };
 		28F7FDF71F9E7ABD007F402B /* Round About.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDF61F9E7ABD007F402B /* Round About.ttf */; };
 		28F7FDF91F9E8ADA007F402B /* back_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDF81F9E8ADA007F402B /* back_card.png */; };
 		28F7FDFC1F9E8B36007F402B /* logo_loto-quebec.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDFA1F9E8B36007F402B /* logo_loto-quebec.png */; };
@@ -200,6 +201,7 @@
 		287D26631F9E3AD700600F07 /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
 		287D26641F9E3AD700600F07 /* Icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-512.png"; sourceTree = "<group>"; };
 		287D26851F9E3AF100600F07 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
+		2895EFBC1F9EA26E00672214 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		28F7FDF61F9E7ABD007F402B /* Round About.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Round About.ttf"; path = "working/fonts/Round About.ttf"; sourceTree = SOURCE_ROOT; };
 		28F7FDF81F9E8ADA007F402B /* back_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_card.png; path = working/images/cards/back_card.png; sourceTree = SOURCE_ROOT; };
 		28F7FDFA1F9E8B36007F402B /* logo_loto-quebec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_loto-quebec.png"; path = "working/images/misc/logo_loto-quebec.png"; sourceTree = SOURCE_ROOT; };
@@ -390,6 +392,7 @@
 				9B2804E71F9827DF00E6CCB1 /* AppDelegate.swift */,
 				9B2804E91F9827DF00E6CCB1 /* ViewController.swift */,
 				9B2804EB1F9827DF00E6CCB1 /* Main.storyboard */,
+				2895EFBC1F9EA26E00672214 /* UserDefaultsManager.swift */,
 				9B2804EE1F9827DF00E6CCB1 /* Assets.xcassets */,
 				9B2804F01F9827DF00E6CCB1 /* LaunchScreen.storyboard */,
 				9B2804F31F9827DF00E6CCB1 /* Info.plist */,
@@ -565,6 +568,7 @@
 			files = (
 				9B2804EA1F9827DF00E6CCB1 /* ViewController.swift in Sources */,
 				9B2805BA1F9939D700E6CCB1 /* PokerHands.swift in Sources */,
+				2895EFBD1F9EA26E00672214 /* UserDefaultsManager.swift in Sources */,
 				9B2804E81F9827DF00E6CCB1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

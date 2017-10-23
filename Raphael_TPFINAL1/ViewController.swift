@@ -42,6 +42,7 @@ class ViewController: UIViewController {
     //---
     var arrOfKeepLabels: [UILabel]!
     //---
+    let saveScore = UserDefaultsManager()
     var permissionToSelectCards = false
     var bet = 0
     var credits = 2000
@@ -57,6 +58,12 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         //---
         super.viewDidLoad()
+        //---
+        if !saveScore.doesKeyExist(theKey: "credits") {
+            saveScore.setKey(theValue: 2000 as AnyObject, theKey: "credits")
+        } else {
+            credits = saveScore.getValue(theKey: "credits") as! Int
+        }
         //---
         createCardObjectsFromImages()
         //---
