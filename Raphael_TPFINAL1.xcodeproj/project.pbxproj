@@ -100,6 +100,7 @@
 		287D26871F9E3AF200600F07 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26841F9E3AF100600F07 /* bg.png */; };
 		287D26881F9E3AF200600F07 /* buttons.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26851F9E3AF100600F07 /* buttons.png */; };
 		287D26891F9E3AF200600F07 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 287D26861F9E3AF100600F07 /* logo.png */; };
+		28F7FDF71F9E7ABD007F402B /* Round About.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDF61F9E7ABD007F402B /* Round About.ttf */; };
 		9B2804E81F9827DF00E6CCB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2804E71F9827DF00E6CCB1 /* AppDelegate.swift */; };
 		9B2804EA1F9827DF00E6CCB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2804E91F9827DF00E6CCB1 /* ViewController.swift */; };
 		9B2804ED1F9827DF00E6CCB1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2804EB1F9827DF00E6CCB1 /* Main.storyboard */; };
@@ -202,6 +203,7 @@
 		287D26841F9E3AF100600F07 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
 		287D26851F9E3AF100600F07 /* buttons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttons.png; sourceTree = "<group>"; };
 		287D26861F9E3AF100600F07 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		28F7FDF61F9E7ABD007F402B /* Round About.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Round About.ttf"; path = "working/fonts/Round About.ttf"; sourceTree = SOURCE_ROOT; };
 		9B2804E41F9827DF00E6CCB1 /* Raphael_TPFINAL1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raphael_TPFINAL1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2804E71F9827DF00E6CCB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B2804E91F9827DF00E6CCB1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 		287D25CB1F9E3A4500600F07 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
+				28F7FDF61F9E7ABD007F402B /* Round About.ttf */,
 				287D25CC1F9E3A6300600F07 /* couture-bld.otf */,
 				287D25CD1F9E3A6400600F07 /* Indiana.ttf */,
 			);
@@ -545,6 +548,7 @@
 				287D26181F9E3AAC00600F07 /* 1d.png in Resources */,
 				287D261D1F9E3AAC00600F07 /* 1s.png in Resources */,
 				287D26741F9E3AD700600F07 /* Icon-144.png in Resources */,
+				28F7FDF71F9E7ABD007F402B /* Round About.ttf in Resources */,
 				9B2804ED1F9827DF00E6CCB1 /* Main.storyboard in Resources */,
 				287D262F1F9E3AAC00600F07 /* 6s.png in Resources */,
 				287D26821F9E3AD700600F07 /* Icon-512.png in Resources */,

@@ -28,6 +28,7 @@
 	<array>
 		<string>couture-bld.otf</string>
 		<string>Indiana.ttf</string>
+		<string>Round About.ttf</string>
 	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
