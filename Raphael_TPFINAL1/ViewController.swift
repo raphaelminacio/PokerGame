@@ -160,7 +160,7 @@ class ViewController: UIViewController {
         return arrToReturn
     }
     //----------------------//----------------------
-    @IBAction func play(_ sender: UIButton) {   //ici c'est pour faire jouer l'animation et on fait la cannexion avec "DISTRIBUER"
+    @IBAction func play(_ sender: UIButton) {   //ici c'est pour faire jouer l'animation et on fait la connexion avec "DISTRIBUER"
         //---
         if chances == 0 || dealButton.alpha == 0.5 {
             return
@@ -374,8 +374,8 @@ class ViewController: UIViewController {
     }
     //----------------------//----------------------
     func resetBackOfCards() {
-        for back in arrOfSlotImageViews {
-            back.image = UIImage(named: "back.png")
+        for back_card in arrOfSlotImageViews {
+            back_card.image = UIImage(named: "back_card.png")
         }
     }
     //----------------------//----------------------
