@@ -29,19 +29,19 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L4C-gW-E0F" userLabel="slot_1">
-                                <rect key="frame" x="15" y="96" width="121" height="195.5"/>
+                                <rect key="frame" x="14.5" y="96" width="121" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="1cn-il-p6c">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115" height="166"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTw-5b-o3S">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115" height="166"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVo-BL-5G5"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7PQ-fp-cDt">
-                                        <rect key="frame" x="3" y="170.5" width="115" height="20"/>
+                                        <rect key="frame" x="3" y="174" width="115" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -64,19 +64,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTk-Ob-92q" userLabel="slot_2">
-                                <rect key="frame" x="144" y="96" width="121" height="195.5"/>
+                                <rect key="frame" x="143.5" y="96" width="121.5" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="1tv-Hx-Hci">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115.5" height="166"/>
                                     </imageView>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViH-Vo-HSu">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115.5" height="166"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVb-f9-R6S"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d1-Y9-OrA">
-                                        <rect key="frame" x="3" y="170.5" width="115" height="20"/>
+                                        <rect key="frame" x="3" y="174" width="115.5" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -99,19 +99,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M74-E1-uFM" userLabel="slot_3">
-                                <rect key="frame" x="273" y="96" width="121" height="195.5"/>
+                                <rect key="frame" x="273" y="96" width="121" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="vxP-46-gJn">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115" height="166"/>
                                     </imageView>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Llj-Ds-AQU">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115" height="166"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OhV-CZ-X4u"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8a-BH-Z3e">
-                                        <rect key="frame" x="3" y="170.5" width="115" height="20"/>
+                                        <rect key="frame" x="3" y="174" width="115" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -135,19 +135,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LG0-2Z-Lts" userLabel="slot_4">
-                                <rect key="frame" x="402" y="96" width="121" height="195.5"/>
+                                <rect key="frame" x="402" y="96" width="121.5" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="pM4-DT-NvQ">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115.5" height="166"/>
                                     </imageView>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20h-2O-8kc">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115.5" height="166"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Li-sy-htK"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2L-D4-sWr">
-                                        <rect key="frame" x="3" y="170.5" width="115" height="20"/>
+                                        <rect key="frame" x="3" y="174" width="115.5" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -170,19 +170,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPL-W1-cxd" userLabel="slot_5">
-                                <rect key="frame" x="531" y="96" width="121" height="195.5"/>
+                                <rect key="frame" x="531.5" y="96" width="121" height="196"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="8mh-Yd-bwb">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115" height="166"/>
                                     </imageView>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izd-sd-zLl">
-                                        <rect key="frame" x="3" y="3" width="115" height="162.5"/>
+                                        <rect key="frame" x="3" y="3" width="115" height="166"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjL-GP-vqM"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPB-C2-Yho">
-                                        <rect key="frame" x="3" y="170.5" width="115" height="20"/>
+                                        <rect key="frame" x="3" y="174" width="115" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -226,14 +226,14 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYU-la-Mty">
-                                <rect key="frame" x="15" y="310" width="121" height="48"/>
+                                <rect key="frame" x="14.5" y="310" width="121" height="48"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="12"/>
                                 <state key="normal" title="RECOMMENCER" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqR-AV-hEo">
-                                <rect key="frame" x="144" y="310" width="121" height="48"/>
+                                <rect key="frame" x="143.5" y="310" width="121.5" height="48"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="12"/>
                                 <state key="normal" title="MISER 25" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -256,7 +256,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPx-nH-kUC">
-                                <rect key="frame" x="402" y="310" width="121" height="48"/>
+                                <rect key="frame" x="402" y="310" width="121.5" height="48"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="12"/>
                                 <state key="normal" title="MISER TOUT" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -266,7 +266,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brp-u4-kkc">
-                                <rect key="frame" x="531" y="310" width="121" height="48"/>
+                                <rect key="frame" x="531.5" y="310" width="121" height="48"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="12"/>
                                 <state key="normal" title="DISTRIBUER" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
