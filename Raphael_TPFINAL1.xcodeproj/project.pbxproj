@@ -100,7 +100,6 @@
 		2895EFBD1F9EA26E00672214 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2895EFBC1F9EA26E00672214 /* UserDefaultsManager.swift */; };
 		28F7FDF71F9E7ABD007F402B /* Round About.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDF61F9E7ABD007F402B /* Round About.ttf */; };
 		28F7FDF91F9E8ADA007F402B /* back_card.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDF81F9E8ADA007F402B /* back_card.png */; };
-		28F7FDFC1F9E8B36007F402B /* logo_loto-quebec.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDFA1F9E8B36007F402B /* logo_loto-quebec.png */; };
 		28F7FDFD1F9E8B36007F402B /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 28F7FDFB1F9E8B36007F402B /* background.png */; };
 		9B2804E81F9827DF00E6CCB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2804E71F9827DF00E6CCB1 /* AppDelegate.swift */; };
 		9B2804EA1F9827DF00E6CCB1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2804E91F9827DF00E6CCB1 /* ViewController.swift */; };
@@ -108,6 +107,8 @@
 		9B2804EF1F9827DF00E6CCB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B2804EE1F9827DF00E6CCB1 /* Assets.xcassets */; };
 		9B2804F21F9827DF00E6CCB1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B2804F01F9827DF00E6CCB1 /* LaunchScreen.storyboard */; };
 		9B2805BA1F9939D700E6CCB1 /* PokerHands.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2805B91F9939D700E6CCB1 /* PokerHands.swift */; };
+		9BACCC4E1FA150EC00A26158 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BACCC4D1FA150EB00A26158 /* logo.png */; };
+		9BACCC521FA16E0C00A26158 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BACCC511FA16E0C00A26158 /* launchScreen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -204,7 +205,6 @@
 		2895EFBC1F9EA26E00672214 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		28F7FDF61F9E7ABD007F402B /* Round About.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Round About.ttf"; path = "working/fonts/Round About.ttf"; sourceTree = SOURCE_ROOT; };
 		28F7FDF81F9E8ADA007F402B /* back_card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = back_card.png; path = working/images/cards/back_card.png; sourceTree = SOURCE_ROOT; };
-		28F7FDFA1F9E8B36007F402B /* logo_loto-quebec.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo_loto-quebec.png"; path = "working/images/misc/logo_loto-quebec.png"; sourceTree = SOURCE_ROOT; };
 		28F7FDFB1F9E8B36007F402B /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = working/images/misc/background.png; sourceTree = SOURCE_ROOT; };
 		9B2804E41F9827DF00E6CCB1 /* Raphael_TPFINAL1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Raphael_TPFINAL1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B2804E71F9827DF00E6CCB1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -214,6 +214,8 @@
 		9B2804F11F9827DF00E6CCB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B2804F31F9827DF00E6CCB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2805B91F9939D700E6CCB1 /* PokerHands.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokerHands.swift; sourceTree = "<group>"; };
+		9BACCC4D1FA150EB00A26158 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logo.png; path = working/images/misc/logo.png; sourceTree = SOURCE_ROOT; };
+		9BACCC511FA16E0C00A26158 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchScreen.png; path = working/images/misc/launchScreen.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -360,8 +362,9 @@
 		287D26831F9E3ADD00600F07 /* misc */ = {
 			isa = PBXGroup;
 			children = (
+				9BACCC511FA16E0C00A26158 /* launchScreen.png */,
+				9BACCC4D1FA150EB00A26158 /* logo.png */,
 				28F7FDFB1F9E8B36007F402B /* background.png */,
-				28F7FDFA1F9E8B36007F402B /* logo_loto-quebec.png */,
 				287D26851F9E3AF100600F07 /* buttons.png */,
 			);
 			path = misc;
@@ -459,6 +462,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BACCC4E1FA150EC00A26158 /* logo.png in Resources */,
 				287D26751F9E3AD700600F07 /* Icon-57.png in Resources */,
 				287D26441F9E3AAC00600F07 /* 2s.png in Resources */,
 				287D266A1F9E3AD700600F07 /* Icon-256.png in Resources */,
@@ -510,12 +514,12 @@
 				287D25CF1F9E3A6400600F07 /* Indiana.ttf in Resources */,
 				287D267E1F9E3AD700600F07 /* Icon-87.png in Resources */,
 				287D25D91F9E3A8A00600F07 /* blur_4.png in Resources */,
+				9BACCC521FA16E0C00A26158 /* launchScreen.png in Resources */,
 				287D267C1F9E3AD700600F07 /* Icon-180.png in Resources */,
 				287D26371F9E3AAC00600F07 /* 5c.png in Resources */,
 				287D26401F9E3AAC00600F07 /* 13s.png in Resources */,
 				287D25D61F9E3A8A00600F07 /* blur_2.png in Resources */,
 				287D26781F9E3AD700600F07 /* Icon-32.png in Resources */,
-				28F7FDFC1F9E8B36007F402B /* logo_loto-quebec.png in Resources */,
 				287D26801F9E3AD700600F07 /* Icon-50.png in Resources */,
 				287D26301F9E3AAC00600F07 /* 13d.png in Resources */,
 				9B2804EF1F9827DF00E6CCB1 /* Assets.xcassets in Resources */,

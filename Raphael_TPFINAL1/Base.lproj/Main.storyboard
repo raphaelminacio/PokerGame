@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="landscape">
+    <device id="retina5_5" orientation="landscape">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -21,27 +21,26 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Raphael_TPFINAL1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="AEY-SF-LZe">
-                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background.png" translatesAutoresizingMaskIntoConstraints="NO" id="AEY-SF-LZe">
+                                <rect key="frame" x="0.0" y="0.0" width="736" height="414"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L4C-gW-E0F" userLabel="slot_1">
-                                <rect key="frame" x="14.5" y="96" width="121" height="196.5"/>
+                                <rect key="frame" x="19" y="106" width="133" height="215.66666666666669"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="1cn-il-p6c">
-                                        <rect key="frame" x="3" y="3" width="115" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127" height="185.66666666666669"/>
                                     </imageView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pTw-5b-o3S">
-                                        <rect key="frame" x="3" y="3" width="115" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127" height="185.66666666666669"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVo-BL-5G5"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7PQ-fp-cDt">
-                                        <rect key="frame" x="3" y="174.5" width="115" height="17"/>
+                                        <rect key="frame" x="3" y="193.66666666666669" width="127" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -64,19 +63,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XTk-Ob-92q" userLabel="slot_2">
-                                <rect key="frame" x="143.5" y="96" width="121.5" height="196.5"/>
+                                <rect key="frame" x="160" y="106" width="133.33333333333331" height="215.66666666666669"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="1tv-Hx-Hci">
-                                        <rect key="frame" x="3" y="3" width="115.5" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127.33333333333331" height="185.66666666666669"/>
                                     </imageView>
                                     <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ViH-Vo-HSu">
-                                        <rect key="frame" x="3" y="3" width="115.5" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127.33333333333331" height="185.66666666666669"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MVb-f9-R6S"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4d1-Y9-OrA">
-                                        <rect key="frame" x="3" y="174.5" width="115.5" height="17"/>
+                                        <rect key="frame" x="3" y="193.66666666666669" width="127.33333333333331" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -99,19 +98,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M74-E1-uFM" userLabel="slot_3">
-                                <rect key="frame" x="273" y="96" width="121" height="196.5"/>
+                                <rect key="frame" x="301.33333333333331" y="106" width="133.33333333333337" height="215.66666666666669"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="vxP-46-gJn">
-                                        <rect key="frame" x="3" y="3" width="115" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127.33333333333337" height="185.66666666666669"/>
                                     </imageView>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Llj-Ds-AQU">
-                                        <rect key="frame" x="3" y="3" width="115" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127.33333333333337" height="185.66666666666669"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OhV-CZ-X4u"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="x8a-BH-Z3e">
-                                        <rect key="frame" x="3" y="174.5" width="115" height="17"/>
+                                        <rect key="frame" x="3" y="193.66666666666669" width="127.33333333333337" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -135,19 +134,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LG0-2Z-Lts" userLabel="slot_4">
-                                <rect key="frame" x="402" y="96" width="121.5" height="196.5"/>
+                                <rect key="frame" x="442.66666666666674" y="106" width="133.33333333333326" height="215.66666666666669"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="pM4-DT-NvQ">
-                                        <rect key="frame" x="3" y="3" width="115.5" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127.33333333333331" height="185.66666666666669"/>
                                     </imageView>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="20h-2O-8kc">
-                                        <rect key="frame" x="3" y="3" width="115.5" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127.33333333333331" height="185.66666666666669"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Li-sy-htK"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h2L-D4-sWr">
-                                        <rect key="frame" x="3" y="174.5" width="115.5" height="17"/>
+                                        <rect key="frame" x="3" y="193.66666666666669" width="127.33333333333331" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -170,19 +169,19 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rPL-W1-cxd" userLabel="slot_5">
-                                <rect key="frame" x="531.5" y="96" width="121" height="196.5"/>
+                                <rect key="frame" x="584" y="106" width="133" height="215.66666666666669"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_card.png" translatesAutoresizingMaskIntoConstraints="NO" id="8mh-Yd-bwb">
-                                        <rect key="frame" x="3" y="3" width="115" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127" height="185.66666666666669"/>
                                     </imageView>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="izd-sd-zLl">
-                                        <rect key="frame" x="3" y="3" width="115" height="166.5"/>
+                                        <rect key="frame" x="3" y="3" width="127" height="185.66666666666669"/>
                                         <connections>
                                             <action selector="cardsToHold:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cjL-GP-vqM"/>
                                         </connections>
                                     </button>
                                     <label hidden="YES" opaque="NO" userInteractionEnabled="NO" tag="4" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="GARDER" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hPB-C2-Yho">
-                                        <rect key="frame" x="3" y="174.5" width="115" height="17"/>
+                                        <rect key="frame" x="3" y="193.66666666666669" width="127" height="17"/>
                                         <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                         <color key="textColor" red="1" green="0.77699619529999997" blue="0.26105248930000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
@@ -204,36 +203,33 @@
                                     <constraint firstItem="izd-sd-zLl" firstAttribute="leading" secondItem="rPL-W1-cxd" secondAttribute="leading" constant="3" id="zDW-Rx-cBZ"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="CRÉDITS: 2000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYv-yn-EKT">
-                                <rect key="frame" x="443" y="14" width="209" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CRÉDITS: 2000" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MYv-yn-EKT">
+                                <rect key="frame" x="442.66666666666674" y="31" width="274.33333333333326" height="17"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="MISE: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKM-Fb-5eP">
-                                <rect key="frame" x="443" y="37" width="209" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MISE: 0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EKM-Fb-5eP">
+                                <rect key="frame" x="442.66666666666674" y="56" width="274.33333333333326" height="17"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BONNE CHANCE!!!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExY-RL-7UU">
-                                <rect key="frame" x="443" y="61" width="209" height="27"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BONNE CHANCE!!!" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ExY-RL-7UU">
+                                <rect key="frame" x="442.66666666666674" y="81" width="274.33333333333326" height="17"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYU-la-Mty">
-                                <rect key="frame" x="14.5" y="310" width="121" height="48"/>
+                                <rect key="frame" x="19" y="344.33333333333326" width="133" height="52.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="12"/>
                                 <state key="normal" title="RECOMMENCER" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
                             <button opaque="NO" tag="25" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YqR-AV-hEo">
-                                <rect key="frame" x="143.5" y="310" width="121.5" height="48"/>
+                                <rect key="frame" x="160" y="344.33333333333326" width="133.33333333333331" height="52.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="12"/>
                                 <state key="normal" title="MISER 25" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -243,7 +239,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="obi-cU-72a">
-                                <rect key="frame" x="273" y="310" width="121" height="48"/>
+                                <rect key="frame" x="301.33333333333331" y="344.33333333333326" width="133.33333333333337" height="52.666666666666686"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="obi-cU-72a" secondAttribute="height" multiplier="121:48" id="EJm-Uh-Svb"/>
                                 </constraints>
@@ -256,7 +252,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WPx-nH-kUC">
-                                <rect key="frame" x="402" y="310" width="121.5" height="48"/>
+                                <rect key="frame" x="442.66666666666674" y="344.33333333333326" width="133.33333333333326" height="52.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="12"/>
                                 <state key="normal" title="MISER TOUT" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -266,7 +262,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="brp-u4-kkc">
-                                <rect key="frame" x="531.5" y="310" width="121" height="48"/>
+                                <rect key="frame" x="584" y="344.33333333333326" width="133" height="52.666666666666686"/>
                                 <fontDescription key="fontDescription" name="Couture-Bold" family="Couture" pointSize="12"/>
                                 <state key="normal" title="DISTRIBUER" backgroundImage="buttons.png">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -275,17 +271,26 @@
                                     <action selector="play:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YiA-N8-pqP"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="Qt1-hZ-WyZ">
+                                <rect key="frame" x="15" y="5" width="250" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="WPx-nH-kUC" firstAttribute="width" secondItem="obi-cU-72a" secondAttribute="width" id="0Nk-5q-oAb"/>
+                            <constraint firstItem="EKM-Fb-5eP" firstAttribute="top" secondItem="MYv-yn-EKT" secondAttribute="bottom" constant="8" id="0Rd-Ex-Z2H"/>
+                            <constraint firstItem="EKM-Fb-5eP" firstAttribute="width" secondItem="ExY-RL-7UU" secondAttribute="width" id="14E-fB-JRs"/>
                             <constraint firstItem="brp-u4-kkc" firstAttribute="top" secondItem="obi-cU-72a" secondAttribute="top" id="3G4-wh-4J0"/>
                             <constraint firstItem="obi-cU-72a" firstAttribute="leading" secondItem="M74-E1-uFM" secondAttribute="leading" id="6ca-FR-rwZ"/>
                             <constraint firstItem="WPx-nH-kUC" firstAttribute="top" secondItem="obi-cU-72a" secondAttribute="top" id="8YD-G5-wbB"/>
+                            <constraint firstItem="AEY-SF-LZe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="8gw-RU-mKF"/>
                             <constraint firstItem="L4C-gW-E0F" firstAttribute="width" secondItem="M74-E1-uFM" secondAttribute="width" id="9lQ-Nt-Lyh"/>
                             <constraint firstItem="obi-cU-72a" firstAttribute="leading" secondItem="YqR-AV-hEo" secondAttribute="trailing" constant="8" id="Adf-HW-9CS"/>
                             <constraint firstItem="XTk-Ob-92q" firstAttribute="width" secondItem="M74-E1-uFM" secondAttribute="width" id="CZz-sW-Ei0"/>
+                            <constraint firstItem="LG0-2Z-Lts" firstAttribute="top" secondItem="ExY-RL-7UU" secondAttribute="bottom" constant="8" id="DlL-7k-S6B"/>
                             <constraint firstItem="rPL-W1-cxd" firstAttribute="top" secondItem="M74-E1-uFM" secondAttribute="top" id="E6Q-yK-gJm"/>
+                            <constraint firstItem="MYv-yn-EKT" firstAttribute="width" secondItem="ExY-RL-7UU" secondAttribute="width" id="FDA-08-Ikq"/>
                             <constraint firstItem="XTk-Ob-92q" firstAttribute="height" secondItem="M74-E1-uFM" secondAttribute="height" id="GMp-tM-UJG"/>
                             <constraint firstItem="XTk-Ob-92q" firstAttribute="top" secondItem="M74-E1-uFM" secondAttribute="top" id="He0-4j-jWz"/>
                             <constraint firstItem="brp-u4-kkc" firstAttribute="leading" secondItem="rPL-W1-cxd" secondAttribute="leading" id="JH0-RG-zCU"/>
@@ -296,29 +301,39 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="M74-E1-uFM" secondAttribute="top" multiplier="3.9062" id="Neb-2Z-qgB"/>
                             <constraint firstItem="LG0-2Z-Lts" firstAttribute="width" secondItem="M74-E1-uFM" secondAttribute="width" id="Ogo-qs-hio"/>
                             <constraint firstItem="WPx-nH-kUC" firstAttribute="height" secondItem="obi-cU-72a" secondAttribute="height" id="QIz-YV-IVd"/>
+                            <constraint firstItem="AEY-SF-LZe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QZ0-4R-hWf"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="obi-cU-72a" secondAttribute="bottom" constant="17" id="Qjq-FV-JAv"/>
                             <constraint firstItem="WPx-nH-kUC" firstAttribute="leading" secondItem="LG0-2Z-Lts" secondAttribute="leading" id="Reh-tP-3jI"/>
+                            <constraint firstItem="MYv-yn-EKT" firstAttribute="leading" secondItem="ExY-RL-7UU" secondAttribute="leading" id="RxO-RO-07N"/>
                             <constraint firstItem="WPx-nH-kUC" firstAttribute="trailing" secondItem="LG0-2Z-Lts" secondAttribute="trailing" id="Ttb-Mh-BtD"/>
                             <constraint firstItem="kYU-la-Mty" firstAttribute="trailing" secondItem="L4C-gW-E0F" secondAttribute="trailing" id="Utg-34-JYO"/>
                             <constraint firstItem="brp-u4-kkc" firstAttribute="height" secondItem="obi-cU-72a" secondAttribute="height" id="W8d-G9-02z"/>
                             <constraint firstItem="kYU-la-Mty" firstAttribute="width" secondItem="obi-cU-72a" secondAttribute="width" id="X1d-Km-fVt"/>
                             <constraint firstItem="XTk-Ob-92q" firstAttribute="leading" secondItem="L4C-gW-E0F" secondAttribute="trailing" constant="8" id="YTW-GK-o6N"/>
                             <constraint firstItem="rPL-W1-cxd" firstAttribute="width" secondItem="M74-E1-uFM" secondAttribute="width" id="ZXN-pa-6na"/>
+                            <constraint firstItem="EKM-Fb-5eP" firstAttribute="trailing" secondItem="ExY-RL-7UU" secondAttribute="trailing" id="ade-OQ-dGZ"/>
                             <constraint firstItem="rPL-W1-cxd" firstAttribute="leading" secondItem="LG0-2Z-Lts" secondAttribute="trailing" constant="8" id="bBK-BL-kk7"/>
                             <constraint firstItem="YqR-AV-hEo" firstAttribute="top" secondItem="obi-cU-72a" secondAttribute="top" id="ftC-0q-knO"/>
+                            <constraint firstItem="ExY-RL-7UU" firstAttribute="trailing" secondItem="rPL-W1-cxd" secondAttribute="trailing" id="gBu-T0-hfk"/>
+                            <constraint firstItem="ExY-RL-7UU" firstAttribute="leading" secondItem="LG0-2Z-Lts" secondAttribute="leading" id="ghJ-vT-LdU"/>
                             <constraint firstItem="LG0-2Z-Lts" firstAttribute="leading" secondItem="M74-E1-uFM" secondAttribute="trailing" constant="8" id="htk-zO-gzJ"/>
                             <constraint firstItem="M74-E1-uFM" firstAttribute="leading" secondItem="XTk-Ob-92q" secondAttribute="trailing" constant="8" id="jlA-Rk-j3a"/>
+                            <constraint firstItem="ExY-RL-7UU" firstAttribute="top" secondItem="EKM-Fb-5eP" secondAttribute="bottom" constant="8" id="kdc-73-O2N"/>
                             <constraint firstItem="M74-E1-uFM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ljv-jv-7bY"/>
                             <constraint firstItem="LG0-2Z-Lts" firstAttribute="height" secondItem="M74-E1-uFM" secondAttribute="height" id="mSl-SW-zh0"/>
                             <constraint firstItem="YqR-AV-hEo" firstAttribute="leading" secondItem="XTk-Ob-92q" secondAttribute="leading" id="mji-iO-UEs"/>
                             <constraint firstItem="M74-E1-uFM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.1814" id="mvx-th-1jj"/>
+                            <constraint firstItem="EKM-Fb-5eP" firstAttribute="leading" secondItem="ExY-RL-7UU" secondAttribute="leading" id="nNS-oJ-qhU"/>
                             <constraint firstItem="L4C-gW-E0F" firstAttribute="height" secondItem="M74-E1-uFM" secondAttribute="height" id="nTC-F3-ZpB"/>
                             <constraint firstItem="kYU-la-Mty" firstAttribute="top" secondItem="obi-cU-72a" secondAttribute="top" id="nxI-Fe-iJ7"/>
                             <constraint firstItem="brp-u4-kkc" firstAttribute="trailing" secondItem="rPL-W1-cxd" secondAttribute="trailing" id="ofj-uZ-JpH"/>
                             <constraint firstItem="L4C-gW-E0F" firstAttribute="top" secondItem="M74-E1-uFM" secondAttribute="top" id="pdT-VN-7YT"/>
                             <constraint firstItem="obi-cU-72a" firstAttribute="trailing" secondItem="M74-E1-uFM" secondAttribute="trailing" id="rNI-QU-lkl"/>
                             <constraint firstItem="brp-u4-kkc" firstAttribute="width" secondItem="obi-cU-72a" secondAttribute="width" id="tkf-wf-2hu"/>
+                            <constraint firstItem="AEY-SF-LZe" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="uhp-vi-56X"/>
+                            <constraint firstItem="AEY-SF-LZe" firstAttribute="centerX" secondItem="M74-E1-uFM" secondAttribute="centerX" id="v4g-rs-enj"/>
                             <constraint firstItem="YqR-AV-hEo" firstAttribute="width" secondItem="obi-cU-72a" secondAttribute="width" id="vx4-PM-aaU"/>
+                            <constraint firstItem="MYv-yn-EKT" firstAttribute="trailing" secondItem="ExY-RL-7UU" secondAttribute="trailing" id="w7c-wz-4X4"/>
                             <constraint firstItem="LG0-2Z-Lts" firstAttribute="top" secondItem="M74-E1-uFM" secondAttribute="top" id="wg0-cQ-NKD"/>
                             <constraint firstItem="rPL-W1-cxd" firstAttribute="height" secondItem="M74-E1-uFM" secondAttribute="height" id="z3n-S9-d0W"/>
                             <constraint firstItem="obi-cU-72a" firstAttribute="width" secondItem="M74-E1-uFM" secondAttribute="width" id="zHz-XB-2Nd"/>
@@ -356,5 +371,6 @@
         <image name="back_card.png" width="309" height="429"/>
         <image name="background.png" width="1920" height="1080"/>
         <image name="buttons.png" width="756" height="299"/>
+        <image name="logo.png" width="250" height="88"/>
     </resources>
 </document>
