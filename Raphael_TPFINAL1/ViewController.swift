@@ -392,5 +392,15 @@ class ViewController: UIViewController {
         //---
     }
     //----------------------//----------------------
+    
+    @IBAction func reset_button(_ sender: Any) {
+        resetBackOfCards()
+        dealButton.alpha = 0.5
+        credits = 2000
+        creditsLabel.text = "CRÉDITS : \(credits)"
+        bet = 0
+        betLabel.text = "MISE : \(bet)"
+        tempLabel.text = "BONNE CHANCE..."
+    }
 }
 //----------------------//----------------------
